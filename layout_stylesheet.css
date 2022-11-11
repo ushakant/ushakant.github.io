@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+    color: black;
+}
+/*  */
+.container{
+    display: flex;
+    justify-content: center;
+}
+/* Background color of the Bodalia logo */
+.item{
+    background-color: #A99679;
+    margin: 0px;
+    width: 36%;
+    height: 250px;
+}
+
+.img {
+    height: 100%;
+    width:100%;
+}
+
+/* Social Media buttons styling */
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;;
+}
+
+/* Designing the feature of the Flex box */
+/* Navigation Buttons at the top */
+/* Styling Flexbox */
+#flexbox-demo-bg {
+    background-color: paleturquoise;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: cornsilk;
+    flex-direction:row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.flex-item{
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+
+}

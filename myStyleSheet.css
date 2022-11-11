@@ -1,0 +1,166 @@
+/* CSS File located in the same directory as index.html (myStyleSheet.css) */
+
+body{
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+
+/* Paralex styling */
+.ParalexContainer{
+  display: block;
+}
+.Paralex-image{
+  background-image: url("Crouching.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.Paralex-image2{
+  background-image: url("ITV Interview.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Paralex-image3{
+  background-image: url("NHSessions.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Paralex-image4{
+  background-image: url("Tomorrowland Montage.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Paralex-image5{
+  background-image: url("Starfields\ 1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NHS Blue background color */
+.ChapterNHS{
+  background-color: rgb(0,94,184); 
+  /* background-color: #A99679;  */
+  color: white;
+  text-align: center;
+  padding: 5px 50px;
+}
+
+.ChapterNHS > p{
+  color: white;
+  font: 400 15px/1.8 "Lato",sans-serif;
+  text-align: justify;
+}
+
+.ChapterNHS > h3{
+  font: 400 15px/1.8 "Lato",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.ChapterDJ{
+  /* background-color: #c4121b; */
+  background-color: #A99679; 
+  color: white;
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.ChapterDJ > p{
+  color: white;
+}
+
+
+/* CSS for the Java script for last button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#d7c4a7; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/* --------------------- */
+
+
+
+
+
+
+
+
+/* unvisited link */
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: grey    ;
+  }
+  form{
+    margin-bottom: 20px;
+  }
+  .DOCTOR {
+    padding:10px;
+    background-color: #A99679;
+    border-radius: 5px;
+}
+.DOCTOR:hover{
+    background-color: grey;
+}
+.DOCTOR:active{
+    padding:5px;
+    background-color: grey;
+}
+.hobbies > ol {
+    background-color: yellowgreen ;
+  }
+  .hobbies > ol > li {
+    color: purple;
+  }
+  .hobbies > ul {
+    background-color: purple ;
+  }
+  .hobbies > ul > li {
+    color: black;
+  }
